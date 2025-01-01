@@ -1,0 +1,35 @@
+@charset "utf-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+		background-color: #BBFFFF;
+	}
+
+body{
+		background-color: #81C0C0;
+		font-size: 25px;
+	}
+
+.insert{
+		margin-top: 25px;
+	}
+
+.cotent{
+	width: 40%;
+	margin:50px auto;
+	background-color: white;
+	border-radius: 10px 10px 10px 10px;
+}
+.go{
+	display: flex;
+	justify-content: center;
+
+}
+.goback{
+	background-color:yellow;
+}
+
+

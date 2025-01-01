@@ -1,0 +1,67 @@
+@charset "utf-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color:skyblue;
+}
+.adminjoin,.logout,.admin{
+    background-color:yellow;
+    border:1px solid black;
+    background-size:cover;
+  }
+  .head{
+    font-size: 20px;
+  }
+  .logo{
+  background-color:greenyellow;
+  color:gray;
+  box-shadow: 5px 5px 10px #090808;
+}
+.headernav{
+  background-color:azure;
+  box-shadow: 5px 5px 10px #090808;
+  }
+.logo,.username,.button{
+  padding: 10px 0px;
+}
+.leftnav{
+  font-size: 20px;
+}
+
+.leftnav_add,.leftnav_select,.leftnav_switch{
+  background-color: gray;
+  color: white;
+  border-radius:10px 10px 10px 10px;
+}
+
+.leftnav_item{
+  box-shadow: 5px 5px 10px #090808;
+  border-radius:10px 10px 10px 10px;
+  border:2px solid black;
+  background-color:azure;
+}
+
+.opinion{
+  background-color:red;
+  color: white;
+  float: right;
+  width: 20px;
+    border-radius:5px 5px 5px 5px;
+  }
+.leftnav_add,.leftnav_select,.leftnav_item{
+  padding: 10px 0px;
+}
+ main{
+	margin-top:30px;
+	margin-left:50px;
+	font-size: 20px;
+}
+.insert{
+	margin-top:20px;
+  margin-bottom:20px;
+}
+.username{
+  margin-left: 20px;
+}

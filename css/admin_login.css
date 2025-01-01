@@ -1,0 +1,15 @@
+@charset "utf-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+		background-color: #BBFFFF;
+		margin-top: 25px;
+	}
+	body{
+		background-color: #81C0C0;
+	}
+	.manager,.password,.submit{
+		margin-top: 25px;
+	}

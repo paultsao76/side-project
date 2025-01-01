@@ -1,0 +1,28 @@
+RewriteEngine on
+
+##首頁##
+RewriteRule ^index.html$ index.php 	     [L]
+
+##AboutUs##
+RewriteRule ^about/$     about/about.php [L]
+
+##心情塗鴉牆##
+RewriteRule ^wallarea/$  wall/wall.php?act=area   [L]
+
+##會員專區##
+RewriteRule ^member/$ 	           member/member.php 		 [L] #會員登入OR會員資訊頁面
+RewriteRule ^member/apply/$   	   member/member_apply.php   [L] #會員申請
+RewriteRule ^member/forget/$  	   member/member_forget.php  [L] #會員忘記密碼step1
+RewriteRule ^member/forget/next/$  member/forget_next.php    [L] #會員忘記密碼step2
+##寵物##
+RewriteRule ^pet/$     	   	   	   pet/pet.php 	 	 		 [L] #我的寵物列表
+RewriteRule ^pet/add/$      	   pet/pet.php?act=add 		 [L] #我的寵物新增頁面
+##Feeling Wall##
+RewriteRule ^wall/$      	   	   wall/wall.php 	 		 [L] #會員專區 FeelingWall列表
+##預約##
+RewriteRule ^reserve/$      	   reserve/reserve.php 	 	 [L] #會員專區 預約列表
+
+
+#Options FollowSymLinks Includes ExecCGI
+
+#RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]

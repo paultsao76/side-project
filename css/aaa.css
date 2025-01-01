@@ -1,0 +1,159 @@
+@charset "utf-8";
+body{
+	background-color:#F0F0F0;
+}
+	*{
+	margin: 0px;
+	padding: 0px;
+}
+.head{
+	/* font-size: 20px; */
+	box-shadow: 5px 5px 10px #090808;
+}
+
+.logo{
+	border:3px solid black;
+	border-radius:10px 10px 10px 10px;
+}
+
+.headernav{
+	background-color:azure;
+	box-shadow: 5px 5px 10px #090808;
+}
+/* .headernav_item{
+	border:1px solid gray;
+} */
+/* .logo,.headernav_item{
+	padding: 10px;
+} */
+.footer{
+	background-color:#BEBEBE;
+	margin-top:100px;
+	margin-bottom: 6px;
+	box-shadow: 5px 5px 5px #090808;
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.nav-href{
+	a:link {color:#8E8E8E;}	/*超連結的文字是灰色*/
+	a:visited {color:#8E8E8E;}  /*點擊過的連結，文字變灰色*/
+	a:hover {color:#ACD6FF;}	/*滑鼠移動到連結時，文字變水藍色*/
+	a{ text-decoration: none; margin-left:20px;} /*去除連結底線*/
+}
+
+
+.rule_show, .menu_show, .haired_show, .about_show{
+	margin-top: 20px; 
+	background: #D0D0D0;
+}
+
+.about_show{
+	box-shadow: 5px 5px 5px #090808;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-indent: 20px;
+}
+
+.post_title{
+	background: #ECECFF;
+	box-shadow: 5px 5px 10px #090808;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	border-radius:10px 10px 10px 10px;
+	word-wrap:break-word; word-break:break-all; overflow: hidden;/*这个参数根据需要来绝对要不要*/
+}
+
+.post_content{
+	box-shadow: 5px 5px 10px #090808;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-indent: 20px;
+	word-wrap:break-word; word-break:break-all; overflow: hidden;/*这个参数根据需要来绝对要不要*/
+}
+
+.form_style{
+	margin-top: 70px; 
+	background: #E0E0E0;
+	border-radius:10px 10px 10px 10px;
+	box-shadow: 5px 5px 10px #090808;
+	a:link {color:#000000;}	/*超連結的文字是灰色*/
+	a:visited {color:#000000;}  /*點擊過的連結，文字變灰色*/
+	a:hover {color:#5B5B5B;}	/*滑鼠移動到連結時，文字變水藍色*/
+	a{ text-decoration: none; margin-left:20px;} /*去除連結底線*/
+}
+
+.required{
+	color: red;
+}
+
+.post_area{
+	margin-top: 70px;
+	width: 100%;
+}
+
+.reserve_div{
+	width: 100%;
+}
+
+.reserve_column{
+	background: ##E0E0E0;
+	box-shadow: 5px 5px 10px #090808;
+	margin-bottom: 10px;
+} 
+
+.pet_list{
+	width: 100%;
+	border:1px;
+}
+
+.search_key{
+	width: 130px;
+}
+
+.menu_show{
+    font-size: 10px;
+  }
+
+.br_class{
+	display: block;
+}
+
+.f-10{
+	font-size: 10px;
+}
+
+@media screen and (min-width:900px) { /*大螢幕*/
+  .menu_show{
+    font-size: 15px;
+  }
+
+  .pet_list{
+    width: 500px;
+  }
+
+  .search_key{
+    width: 200px;
+  }
+
+  .post_area{
+	margin-top: 70px;
+	width: 40%;
+}
+
+  .reserve_div{
+	width: 70%;
+}
+
+  .br_class{
+  	display: inline;
+  }
+
+  .f-10{
+	font-size: 20px;
+}
+
+}
+
