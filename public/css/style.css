@@ -1,0 +1,55 @@
+@charset "utf-8";
+body{
+	background-color:#F0F0F0;
+}
+	*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.head{
+	width: 100%;
+	background-color: #F0F0F0;
+}
+
+.notice_area{
+	width: 100%;
+	background-color:#FFB5B5;
+	margin-bottom: 10px;
+}
+
+.nav-href{
+	a:link {color:#8E8E8E;}	/*超連結的文字是灰色*/
+	a:visited {color:#8E8E8E;}  /*點擊過的連結，文字變灰色*/
+	a:hover {color:#ACD6FF;}	/*滑鼠移動到連結時，文字變水藍色*/
+	a{ text-decoration: none;} /*去除連結底線*/
+}
+
+.list_show{
+	font-size: 10px;
+}
+
+.required{
+	color: red;
+}
+
+.book_input{
+	width: 200px;
+}
+
+.book_textarea{
+	width: 230px;
+	height: 200px;
+}
+
+@media screen and (min-width:900px) { /*大螢幕*/
+.head{
+	width: 70%;
+} 
+
+.list_show{
+	font-size: 20px;
+}
+
+}
+
