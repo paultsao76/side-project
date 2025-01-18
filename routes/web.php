@@ -21,7 +21,7 @@ Route::middleware([
     //     return view('dashboard');
     // })->name('dashboard');
 	Route::resource("books", BooksController::class);
-	Route::get("report", [BooksController::class, 'index'])->name('book_root');//報表
+	Route::get("books", [BooksController::class, 'index'])->name('book_root');//後台首頁
 	Route::get("report", [BooksController::class, 'report'])->name('report');//報表
 });
 
